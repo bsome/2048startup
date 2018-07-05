@@ -1,6 +1,6 @@
 var LABELS = new Array();
 LABELS[2] = "pets"
-LABELS[4] = "scoot"
+LABELS[4] = "nio"
 LABELS[8] = "snap"
 LABELS[16] = "xmi"
 LABELS[32] = "IG"
