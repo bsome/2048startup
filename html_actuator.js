@@ -125,14 +125,14 @@ HTMLActuator.prototype.updateBestScore = function (bestScore) {
 };
 
 HTMLActuator.prototype.message = function (won) {
-  var messages = Array("PIKES UP!");
+  var messages = Array("SERIES A TIME BITCHES!");
   var type    = won ? "game-won" : "game-over";
   var message = "";
   if (won) {
     message = messages[Math.floor(Math.random()*messages.length)];
   }
   else {
-    message = "YOU'RE A GEED";
+    message = "GO BACK TO THE GYM BROSIF";
   }
 
   this.messageContainer.classList.add(type);
