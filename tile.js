@@ -1,15 +1,15 @@
 var LABELS = new Array();
-LABELS[2] = "ΘX"
-LABELS[4] = "ΛXA"
-LABELS[8] = "AEΠ"
-LABELS[16] = "ΔX"
-LABELS[32] = "BΘΠ"
-LABELS[64] = "ΦΔΘ"
-LABELS[128] = "ΦKΨ"
-LABELS[256] = "ZBT"
-LABELS[512] = "ΣX"
-LABELS[1024] = "ΣAE"
-LABELS[2048] = "ΠKA"
+LABELS[2] = "J"
+LABELS[4] = "SNAP"
+LABELS[8] = "WE"
+LABELS[16] = "XMI"
+LABELS[32] = "IG"
+LABELS[64] = "LYFT"
+LABELS[128] = "AB"
+LABELS[256] = "BOX"
+LABELS[512] = "UBER"
+LABELS[1024] = "FB"
+LABELS[2048] = "FC"
 
 function Tile(position, value, label) {
   this.x                = position.x;
